@@ -192,15 +192,17 @@ function NavBar() {
           <Button
             sx={{
               flexGrow: 0,
-              bgcolor: "#F8911E",
+              bgcolor: "primary.main",
               color: "white",
               borderRadius: 36,
               textTransform: "none",
               px: 2,
               "&:hover": {
                 bgcolor: "white",
-                color: "#F8911E",
-                border: "1px solid #F8911E",
+                color: "primary.main",
+                borderColor: "primary.main",
+                borderStyle: "solid",
+                borderWidth: "1px",
               },
             }}
           >
