@@ -14,7 +14,6 @@ import "@fontsource/inter"; // Defaults to weight 400.
 
 const pages = ["Home", "Products", "About", "Contact"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
-const appName = "MonasCI";
 const blackColor = "#2A3342";
 
 function NavBar() {
@@ -54,25 +53,6 @@ function NavBar() {
             }}
           />
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "Inter",
-              fontWeight: 700,
-              fontSize: "18px",
-              // letterSpacing: '.3rem',
-              color: blackColor,
-              textDecoration: "none",
-            }}
-          >
-            {appName}
-          </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -121,24 +101,6 @@ function NavBar() {
               height: "30px",
             }}
           />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "Inter",
-              fontWeight: 700,
-              // letterSpacing: '.3rem',
-              color: blackColor,
-              textDecoration: "none",
-            }}
-          >
-            {appName}
-          </Typography>
           <Box
             flexGrow={1}
             justifyContent="flex-end"
