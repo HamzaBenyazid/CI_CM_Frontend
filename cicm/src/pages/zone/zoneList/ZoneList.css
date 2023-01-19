@@ -1,0 +1,14 @@
+
+.contentContainer {
+    margin-left: 300px;
+    padding: 30px;
+}
+.contentTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00204A;
+}
+.contentWrapper {
+    margin: 20px;
+    padding: 10px;
+}
