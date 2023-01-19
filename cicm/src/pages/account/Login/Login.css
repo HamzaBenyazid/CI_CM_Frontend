@@ -35,17 +35,14 @@
 }
 
 .Button {
-    background-color: #FFEF00;
     position: relative;
     border-radius: 5px;
     margin-top: 7%;
     width: 10em;
     height: 2.5em;
-    color: black;
     font-size: large;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: #FFEF00 .2em solid ;
 }
 
 .Button:hover {

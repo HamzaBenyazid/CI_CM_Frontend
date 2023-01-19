@@ -19,6 +19,8 @@ const FARM_VISUALISER_ROLE = "FARM_VISUALISER";
 
 const sharedRoutes = [
   { path: "/account/login", element: <Login /> },
+  { path: "/zones", element: <ZoneList /> },
+
 ]
 
 const dashboardRoutes = [
@@ -30,7 +32,6 @@ const dashboardRoutes = [
 ];
 
 const zoneRoutes = [
-  { path: "/zones", element: <ZoneList /> },
 ]
 
 

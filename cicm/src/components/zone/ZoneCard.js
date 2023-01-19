@@ -18,12 +18,12 @@ const ZoneCard = (props) => {
             <FontAwesomeIcon
                 icon={faEdit}
                 style={{ width: "25px", height: "35px", cursor: "pointer" ,
-                    color: "#00204A", padding: "10px", paddingRight: "25px" }}
+                    color: "#8FC056", padding: "10px", paddingRight: "25px" }}
             />
             <FontAwesomeIcon
                 icon={faTrash}
                 style={{ width: "25px", height: "35px", cursor: "pointer" ,
-                    color: "#ED6400", padding: "10px", paddingRight: "25px" }}
+                    color: "#8FC056", padding: "10px", paddingRight: "25px" }}
             />
         </div>
     </div> 
