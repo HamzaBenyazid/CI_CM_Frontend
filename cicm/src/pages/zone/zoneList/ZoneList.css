@@ -1,0 +1,23 @@
+
+.contentContainer {
+    margin: 20px;
+    padding: 30px;
+}
+.contentTitle {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00204A;
+}
+
+.contentHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contentWrapper {
+
+    margin-left: 5%;
+    padding: 10px;
+}
